@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: telugu-ocr-tool
+    env: python
+    buildCommand: ""
+    startCommand: "python app_pp.py"
+    plan: free
+    autoDeploy: true
